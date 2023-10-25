@@ -28,9 +28,3 @@ end
 array = [411, 26, 77, 19, 21, 88, 12]
 sorted_array = merge_sort(array)
 puts sorted_array.inspect
-
-# pseudocode
-# 1 - we split the array as evenly as possible (will result in two arrays)
-# 2 - we select the left sub-array and split it as evenly as possible 
-# 2.1 - this process will be repeated until our sub-arrays have a length of 1
-# 3 - when our arrays have a length of 1, they're ready to be merged
